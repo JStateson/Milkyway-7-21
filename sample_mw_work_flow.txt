@@ -1,0 +1,35 @@
+jysdualxeon
+
+1			1/11/2023 1:35:36 PM	Starting BOINC client version 7.21.0 for windows_x86_64	
+2			1/11/2023 1:35:36 PM	This a development version of BOINC and may not function properly	
+3			1/11/2023 1:35:36 PM	log flags: sched_ops	
+4			1/11/2023 1:35:36 PM	Libraries: libcurl/7.86.0-DEV Schannel zlib/1.2.13	
+5			1/11/2023 1:35:36 PM	Data directory: c:\programdata\boinc	
+6			1/11/2023 1:35:37 PM	Running under account jstateson	
+7			1/11/2023 1:35:38 PM	OpenCL: AMD/ATI GPU 0: AMD FirePro S9050 (driver version 2671.3, device version OpenCL 1.2 AMD-APP (2671.3), 12288MB, 12288MB available, 3226 GFLOPS peak)	
+8			1/11/2023 1:35:38 PM	OpenCL: AMD/ATI GPU 1: AMD FirePro S9050 (driver version 2671.3, device version OpenCL 1.2 AMD-APP (2671.3), 12288MB, 12288MB available, 3226 GFLOPS peak)	
+9			1/11/2023 1:35:38 PM	OpenCL: AMD/ATI GPU 2: AMD FirePro S9050 (driver version 2671.3, device version OpenCL 1.2 AMD-APP (2671.3), 12288MB, 12288MB available, 3226 GFLOPS peak)	
+10			1/11/2023 1:35:38 PM	OpenCL: AMD/ATI GPU 3: AMD FirePro S9050 (driver version 2671.3, device version OpenCL 1.2 AMD-APP (2671.3), 6144MB, 6144MB available, 3226 GFLOPS peak)	
+11			1/11/2023 1:35:39 PM	Windows processor group 0: 24 processors	
+12			1/11/2023 1:35:39 PM	Host name: jysdualxeon	
+13			1/11/2023 1:35:39 PM	Processor: 24 GenuineIntel Intel(R) Xeon(R) CPU X5675 @ 3.07GHz [Family 6 Model 44 Stepping 2]	
+14			1/11/2023 1:35:39 PM	Processor features: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss htt tm pni ssse3 cx16 sse4_1 sse4_2 popcnt syscall nx lm vmx smx tm2 dca pbe	
+15			1/11/2023 1:35:39 PM	OS: Microsoft Windows 10: Professional x64 Edition, (10.00.19045.00)	
+16			1/11/2023 1:35:39 PM	Memory: 13.99 GB physical, 29.49 GB virtual	
+====================
+jysdualxeon
+
+64	World Community Grid	1/11/2023 1:35:41 PM	Scheduler request completed: got 0 new tasks	
+65	World Community Grid	1/11/2023 1:35:41 PM	Not sending work - last request too recent: 57 sec	
+66	World Community Grid	1/11/2023 1:35:41 PM	Project requested delay of 121 seconds	
+67	Milkyway@Home	1/11/2023 1:35:47 PM	Sending scheduler request: To fetch work.	
+68	Milkyway@Home	1/11/2023 1:35:47 PM	Reporting 18 completed tasks	
+69	Milkyway@Home	1/11/2023 1:35:47 PM	Requesting new tasks for AMD/ATI GPU	
+70	Milkyway@Home	1/11/2023 1:35:49 PM	Scheduler request completed: got 0 new tasks	
+71	Milkyway@Home	1/11/2023 1:35:49 PM	Not sending work - last request too recent: 71 sec	
+72	Milkyway@Home	1/11/2023 1:35:49 PM	Project requested delay of 91 seconds	
+73	Milkyway@Home	1/11/2023 1:38:36 PM	Sending scheduler request: To fetch work.	
+74	Milkyway@Home	1/11/2023 1:38:36 PM	Reporting 18 completed tasks	
+75	Milkyway@Home	1/11/2023 1:38:36 PM	Requesting new tasks for AMD/ATI GPU	
+76	Milkyway@Home	1/11/2023 1:38:38 PM	Scheduler request completed: got 19 new tasks	
+77	Milkyway@Home	1/11/2023 1:38:38 PM	Project requested delay of 91 seconds	

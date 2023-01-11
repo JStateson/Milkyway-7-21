@@ -1,0 +1,12 @@
+<cc_config>
+ <log_flags>
+  <task>0</task>
+  <work_fetch_debug>0</work_fetch_debug>
+  <file_xfer>0</file_xfer>
+  <sched_ops>1</sched_ops>
+ </log_flags>
+ <options>
+  <use_all_gpus>1</use_all_gpus>
+  <allow_remote_gui_rpc>1</allow_remote_gui_rpc>
+ </options>
+</cc_config>
