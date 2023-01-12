@@ -2,7 +2,7 @@
 
 Please use Word and read the docx to see how the build is done ONLY IF YOU WANT TO BUILD IT
 
-If you are running my 7.16.3 mod then substitute my mod for the 7.16.3 mod as follows
+If you are running my 7.16.3 mod then substitute this mod for the 7.16.3 mod as follows
 
 Exit boinc manager and allow it to stop all jobs.  Verify BOINC.EXE is not running
 
