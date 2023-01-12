@@ -23,3 +23,6 @@ You might want to backup the contents of boinc in the event you want to restore 
 Version 7.21 only has a mod for the Milkyway work fetch bug and does not have the features of 7.16.3
 
 There is no advantage updating to 7.21 unless you want 7.20.2 functionality.
+
+This app WILL NOT FUNCTION PROPERLY if Milkyway CPU apps are run along with GPU apps.
+Run CPU apps such as WCG or Universe.  I am not interested in fixing the CPU app problem.
