@@ -1,6 +1,6 @@
 # Milkyway-7-21 allows BOINC to obtain new work from Milkyway constantly
 
-Please use Word and read the docx to see how the build is done
+Please use Word and read the docx to see how the build is done ONLY IF YOU WANT TO BUILD IT
 
 If you are running my 7.16.3 mod then substitute my mod for the 7.16.3 mod as follows
 
