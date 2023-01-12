@@ -22,6 +22,6 @@ You might want to backup the contents of boinc in the event you want to restore
 
 7.15 or 7.16.3
 
-Version 7.21 only has a mod for the Milkywsay work fetch bug and does not have the 
+Version 7.21 only has a mod for the Milkyway work fetch bug and does not have the features of 7.16.3
 
-features of 7.16.3
+There is no advantage updating to 7.21 unless you want 7.20.2 functionality.
