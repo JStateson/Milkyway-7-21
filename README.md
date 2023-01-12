@@ -18,9 +18,7 @@ Start boinc manager and bring up the event log and verify 7.21 is running.
 
 I no longer have 7.15 on any systems but I assume 7.21 can be substituted for it
 
-You might want to backup the contents of boinc in the event you want to restore
-
-7.15 or 7.16.3
+You might want to backup the contents of boinc in the event you want to restore 7.15, 7.16.3 or 7.20.2
 
 Version 7.21 only has a mod for the Milkyway work fetch bug and does not have the features of 7.16.3
 
