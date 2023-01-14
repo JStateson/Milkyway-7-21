@@ -1,6 +1,9 @@
-stop boinc.  The following worked for me:
+stop boinc and make sure your system is up to date.  The following worked for me:
 sudo /etc/init.d/boinc-client stop
+sudo apt update
+sudo apt upgrade
 
+If not running 7.20 then purge the old version and install 7.20.  If your repository does not have 7.20 ask over at boinc forum where to find it.
 
 In your home folder create the following folders
 Downloads/mw_fix
