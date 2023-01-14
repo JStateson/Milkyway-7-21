@@ -29,4 +29,4 @@ Version 7.21 only has a mod for the Milkyway work fetch bug and does not have th
 This app WILL NOT FUNCTION PROPERLY if Milkyway CPU apps are run along with GPU apps.
 Run CPU apps such as WCG or Universe.  I am not interested in fixing the CPU app problem.
 
-I have to way to verify the Linux version works properly.  Please report back if a problem.
+I have no way to verify the Linux version works properly.  Please report back if a problem.
