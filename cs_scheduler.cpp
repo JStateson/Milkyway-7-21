@@ -115,7 +115,7 @@ int CLIENT_STATE::make_scheduler_request(PROJECT* p) {
         mw_low = MW_LOW_WATER_pct / 100.0;
         mw_high = MW_HIGH_WATER_pct / 100.0;
         bInitRatio = false;
-        if (bDebug)
+        if (true)
             msg_printf(0, MSG_INFO, "Using %d for low water and %d for high water pcts",
                 MW_LOW_WATER_pct, MW_HIGH_WATER_pct);
     }

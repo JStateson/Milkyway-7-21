@@ -2,6 +2,8 @@
 
 Please use Word and read the docx to see how the build is done ONLY IF YOU WANT TO BUILD IT
 
+The Linux version can also be built as documented, or you can download the tar file
+
 If you are running my 7.16.3 mod then substitute this mod for the 7.16.3 mod as follows
 
 Exit boinc manager and allow it to stop all jobs.  Verify BOINC.EXE is not running
@@ -27,4 +29,4 @@ There is no Milkyway advantage updating 7.15 to 7.21 unless you want 7.20.2 func
 This app WILL NOT FUNCTION PROPERLY if Milkyway CPU apps are run along with GPU apps.
 Run CPU apps such as WCG or Universe.  I am not interested in fixing the CPU app problem.
 
-There is no Linux version, sorry.
+I have to way to verify the Linux version works properly.  Please report back if a problem.

@@ -1,0 +1,57 @@
+stop boinc.  The following worked for me:
+sudo /etc/init.d/boinc-client stop
+
+
+In your home folder create the following folders
+Downloads/mw_fix
+change to the mw_fix folder
+
+Download boinc 7-20-2 and unzip it
+wget https://github.com/BOINC/boinc/archive/refs/heads/master.zip
+unzip master.zip
+rm master.zip
+
+Look for cs_scheduler in boinc-master/client and rename it to cs_scheduler-7-20
+and replace it with the Milkyway "fix" version of cs_scheduler.cpp
+
+run the following command to build boinc
+
+sudo apt-get install build-essential
+sudo apt-get install checkinstall
+sudo apt-get install m4
+sudo apt-get install pkg-config
+sudo apt-get install autoconf
+sudo apt-get install openssl
+sudo apt-get install libssl-dev
+sudo apt-get install libcurl4-gnutls-dev
+sudo apt-get install libz-dev
+sudo apt-get install libnotify-dev
+sudo apt-get install libz-dev
+sudo apt-get install git
+sudo apt-get install libtool automake
+./_autosetup
+./configure --disable-server --disable-manager
+make
+
+hopefully it will work.  Try running it, asking for version
+cd client
+
+jstateson@dual-linux:~/Downloads/mw-fix/boinc-master/client$ ./boinc --version
+7.21.0 x86_64-pc-linux-gnu
+
+remove the symbol table and other clutter from the executable
+
+strip ./boinc
+
+Replace the original Berkeley one with the "mod" and start it up
+sudo cp /usr/bin/boinc /usr/bin/boinc-7-20
+sudo cp ./boinc /usr/bin/boinc
+sudo /etc/init.d/boinc-client start
+
+Look in the BOINC managers event log (or boinctask's) for the new version
+
+1			1/13/2023 10:22:40 PM	Starting BOINC client version 7.21.0 for x86_64-pc-linux-gnu	
+72			1/13/2023 10:23:58 PM	Using 1 for low water and 16 for high water pcts	
+
+Let me know how it works as I do not have any AMD cards that can run in Ubuntu due to driver problems
+and the Nvidia cards do not run fast enough to test my "mod"

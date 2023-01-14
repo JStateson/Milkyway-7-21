@@ -3,7 +3,7 @@
   <task>0</task>
   <work_fetch_debug>0</work_fetch_debug>
   <file_xfer>0</file_xfer>
-  <sched_ops>1</sched_ops>
+  <sched_ops>0</sched_ops>
  </log_flags>
  <options>
   <use_all_gpus>1</use_all_gpus>
