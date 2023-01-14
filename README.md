@@ -2,7 +2,7 @@
 
 Please use Word and read the docx to see how the build is done ONLY IF YOU WANT TO BUILD IT
 
-The Linux version can also be built as documented, or you can download the tar file
+The Linux version can also be built as documented, or you can download the tar file AFTER reading the doc
 
 If you are running my 7.16.3 mod then substitute this mod for the 7.16.3 mod as follows
 
