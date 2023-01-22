@@ -2,10 +2,11 @@ All the files in this github repository require that you have first installed
 BOINC version 7-20.  Possily the executable may work with older or newer BOINC
 apps but I cannot guarantee that.
 
-These executables and files name with "filter_7_21" remove message clutter to
-make it easier to find more important messages in the BOINC 7.20 app's event file.
+These executables and files named with "filter_7_21" remove message clutter to
+make it easier to find more important messages in the BOINC app's event file.
 If you are running BOINC on only one system, you probably have no need to reduce
-the number of messages.
+the number of messages.  If you are using BoincTasks to control multiple sysetms,
+you will find this filtering useful.
 
 gui_rpc_server_ops.cpp
 
@@ -22,7 +23,7 @@ In addition to the "fix" to allow Milkyway to constantly acquire more work units
 the file was edited to
  (1) Prevent low priority messages from being displayed.
  (2) Allow the user to specify which messages from the server are to be ignored
-     Note that this affects only message form the server, not the app or the user.
+     Note that this affects only message from the server, not the app or the user.
 
 MsgExcludedList.cfg
 
