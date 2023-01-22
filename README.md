@@ -30,3 +30,5 @@ This app WILL NOT FUNCTION PROPERLY if Milkyway CPU apps are run along with GPU 
 Run CPU apps such as WCG or Universe.  I am not interested in fixing the CPU app problem.
 
 Make sure you have at least 0.25 day of "additional" wanted work
+
+Please read the filter_readme file for before downloading any of the filter files.
